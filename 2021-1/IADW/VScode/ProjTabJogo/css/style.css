@@ -1,0 +1,229 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color: #e2e2e2;
+}
+
+.divTudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divLinha{
+    clear: both;
+}
+
+.h2TituloSessao{
+    font-size: 20px;
+    padding: 10px;
+}
+
+table, td, th{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+    padding: 7px;
+}
+
+th{
+    color: rgb(169, 169, 169);
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+}
+
+td{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* estilos do cabeçalho*/
+
+#divCabecalho{
+    background-color: #162e58;
+    min-height: 100%;
+    padding: 15px 50px 15px 50px;
+}
+
+#h1TituloCabecalho{
+    color: #ffffff;
+    float: left;
+    min-width: 50%;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+.tdImgCabecalho{
+    width: 3.5%;
+    float: left;
+}
+
+.imgCabecalho{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/* estilos classificação*/
+
+#divClassificacao{
+    width: 50%;
+}
+
+.h3TituloGrupo{
+    font-size: 14px;
+    padding: 5px;
+}
+
+#tabelaClassificacao{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tdNomeClube{
+    text-align: left;
+}
+
+.thNomeClube{
+    width: 50%;
+}
+
+.thPosicaoClube{
+    width: 4%;
+}
+
+.thCincoUltimas{
+    width: 20%;
+}
+
+.tdImgClube{
+    width: 5%;
+}
+
+.imgClube{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.divVitoria{
+    background-image: url('../img/v.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin: 5px;
+}
+
+.divEmpate{
+    background-image: url('../img/e.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin: 5px;
+}
+
+.divDerrota{
+    background-image: url('../img/d.svg');
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin: 5px;
+}
+
+/* estilos goleadores*/
+
+#divGoleadores{
+    width: 50%;
+}
+
+#tabelaGoleadores{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tdImgJogadores{
+    width: 5%;
+}
+
+.imgJogadores{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+}
+
+.tdJogadores{
+    width: 90%;
+    text-align: left;
+}
+
+.spanNomeClube{
+    color: darkgray;
+    font-size: 12px;
+}
+
+#tabelaGoleadores td{
+    padding: 20px 10px 10px 10px;
+}
+
+/* estilos jogos*/
+
+#divJogos{
+    width: 50%;
+}
+
+#tabelaJogos{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tdLocal{
+    color: darkgray;
+    text-align: left;
+}
+
+.tdJogos{
+}
+
+.divData{
+    text-align: left;
+    color: darkgray;
+    font-size: 14px;
+}
+
+.divEstadio{
+    text-align: left;
+    color: darkgray;
+    font-size: 14px;
+}
+
+.divJogos{
+    color: darkgray;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.imgJogos1{
+    width: 40px;
+    height: 40px;
+}
+
+.imgJogos2{
+    width: 40px;
+    height: 40px;
+}
+
+.spanTexto{
+    font-size: 30px;
+    text-align: center;
+}
+
+.divTime{
+    text-align: center;
+}
+
+.divImgJogos{
+    text-align: center;
+}

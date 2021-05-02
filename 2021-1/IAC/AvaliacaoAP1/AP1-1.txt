@@ -1,0 +1,6 @@
+1 - Criar o arquivo AP1-1.txt na pasta c:\AvaliacaoAP1
+2 - Abrir o git bash na pasta c:\AvaliacaoAP1
+3 - Comando git status 
+4 - Comando git add .
+5 - Comando git commit  -m "Meu segundo commit da AvaliacaoAP1"
+6 - Comando git push
