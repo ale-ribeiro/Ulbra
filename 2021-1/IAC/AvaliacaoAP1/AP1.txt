@@ -7,3 +7,11 @@
 5 - Comando git add . 
 6 - Comando git commit  -m "Meu primeiro commit da AvaliacaoAP1"
 7 - Comando git push
+
+
+
+
+
+Estou tentando usar os comando do github
+
+git pull / git checkout / merge
