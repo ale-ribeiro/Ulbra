@@ -4,3 +4,4 @@
 4 - Comando git add .
 5 - Comando git commit  -m "Meu segundo commit da AvaliacaoAP1"
 6 - Comando git push
+7 - Realização da TDE Aula 14
