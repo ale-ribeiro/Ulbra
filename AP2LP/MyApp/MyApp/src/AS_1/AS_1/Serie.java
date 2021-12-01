@@ -1,3 +1,5 @@
+// Alunos: Felipe Ribeiro e Alessandro Ribeiro
+
 package AS_1;
 
 import java.util.Objects;
@@ -8,7 +10,9 @@ public class Serie {
     public int temporadas;
     public int epTotal;
     public String sinopse;
-    public Boolean assistido = true;
+    public Boolean Assistido;
+    public Boolean naoAssistido;
+    Scanner tc= new Scanner(System.in);
 
     public void lerDados() {
         Scanner teclado = new Scanner(System.in);
@@ -20,19 +24,30 @@ public class Serie {
         epTotal = teclado.nextInt();
         System.out.println("Descreva a sinopse");
         sinopse = teclado.next();
-        System.out.println("Você assistiu essa série? true ou false");
-        assistido = teclado.nextBoolean();
+        System.out.println("Você assistiu essa série? sim ou não?");
+//        Assistido = teclado.nextBoolean();
+/*        naoAssistido = teclado.nextBoolean(); */
+        String ok= tc.next();
+
     }
     public void Assistido(){
-        if(assistido == true){
-            System.out.println(this.titulo);
+        String ok= tc.next();
+        if(ok.equals("sim")){
+            Assistido= true;
+//        if(Assistido == true){
+//            System.out.println(this.titulo);
         }
     }
     public void naoAssistido(){
-        if(assistido == false){
-            System.out.println(this.titulo);
+        String ok= tc.next();
+        if(ok.equals("não")){
+            naoAssistido= false;
+            }
         }
-    }
+ //       if(naoAssistido == false){
+ //           System.out.println(this.titulo);
+ //       }
+
     public void exibirDados(){
         System.out.println(this.titulo);
         System.out.println(this.temporadas);
